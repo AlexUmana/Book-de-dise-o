@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+    user-select: none;
+    cursor: url(../img/cursor.svg), auto;  
+}
+
+a, svg{
+    
+    cursor: url(../img/cursor_pointer.svg), auto;
+    
+}
+
+.container{
+    background-image: url(../img/background-03-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.contenedor{
+    grid-gap: 15px;
+    height: 100%;
+    
+    
+}
+
+.cabecera{
+    background-color: #ffffbf;
+    grid-area: cabecera;
+    animation-delay: 2,5s;
+    
+    
+}
+
+.contenido{
+    height:500px;
+    margin: 15px;
+    grid-area: cuerpo;
+    
+}
+
+.pie{
+    background-color: black;
+    color: #ffffbf;
+    grid-area: pie;
+    
+}
+
+.pie > .titulo{
+    color: #ffffbf;
+    cursor: url(../img/cursor2_pointer.svg), auto;
+}
+
+.pie, p:hover{
+    background-color: black;
+    color: white;
+    text-align: center;
+    grid-area: pie;
+    cursor: url(../img/cursor2.svg), auto;
+    
+}
+
+ .redes, #instagram:hover{
+    background-color: black;
+    color: white;
+    text-align: center;
+    grid-area: redes;
+    cursor: url(../img/cursor2_pointer.svg), auto;
+    
+}
+
+
+
+ .logo1{
+    width: 250px;
+    align-self: center;
+    justify-self: center;
+    
+    
+}
+
+a, .cabecera .logo{
+    align-self: center;
+    justify-self: center;
+    color: skyblue;
+    
+    
+    
+    }
+
+.logo :hover{
+    align-self: center;
+    justify-self: center;
+    cursor: url(../img/cursor2_pointer.svg), auto;
+    
+    
+    }
+
+.logo1:hover{
+  color: orange;  
+}
+
+
+.cabecera > .b_nav{
+    justify-self: end;
+    align-self: center;
+    grid-area: nav;
+}
+
+.b_nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+li{
+    border-left: double 8px black;
+}
+
+li:hover{
+    border-left: double 8px orange;
+    
+}
+
+.b_nav li a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    
+}
+
+.b_nav li a:hover{
+    margin: 10px;
+    text-decoration: underline wavy;
+    color: black;
+    font-size: 18px;
+    text-decoration-color: orange;
+    
+}
+
+.cabecera .icon{
+    background-image: url(../img/icono.svg);
+    background-repeat: no-repeat;
+    background-size: 340px;
+    background-position: top;
+    grid-area: icon;
+}
+
+
+.titulo{
+    align-self: center;
+    grid-area: titulo;
+    
+}
+
+.redes{
+    
+    grid-area: redes;
+    
+   
+    
+}
+
+#instagram{
+    width: 30px;
+    color: #ffffbf;
+    margin-left: 10px;
+}
+
+.redes #instagram:hover{
+    width: 32px;
+    color: orange;
+    cursor: url(../img/cursor2_pointer.svg), auto;
+}
+
+#item1{
+    background-color: tomato;
+    border-radius: 20px;
+    border: solid 15px;
+    grid-area: item1;
+    
+    
+    
+}
+
+#item2{
+    background-color: tomato;
+    border-radius: 20px;
+    border: solid 15px;
+    grid-area: item2;
+    
+    
+}
+
+#item3{
+    background-color: tomato;
+    border-radius: 20px;
+    border: solid 15px;
+    grid-area: item3;
+    
+    
+}
+
+#item4{
+    background-color: tomato;
+    border-radius: 20px;
+    border: solid 15px;
+    grid-area: item4;
+    
+    
+}
