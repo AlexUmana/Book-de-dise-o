@@ -1,0 +1,48 @@
+.container{
+    
+    display: grid;
+    
+    grid-template-columns: repeat(3, 1fr);
+    
+    grid-template-rows: 1fr auto 1fr;
+    
+    grid-template-areas: "cabecera cabecera cabecera"
+                         "cuerpo cuerpo cuerpo"
+                         "pie pie pie";
+}
+
+.cabecera{
+    display: grid;
+    grid-template-areas: "logo nav nav icon";
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+
+
+
+.pie{
+    
+    display: grid;
+    
+    grid-template-areas: "titulo"
+                         "redes";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    
+        
+    
+    
+}
+
+.contenedor{
+    display: grid;
+    grid-template-areas: "item1 item3 item3"
+                         "item1 item2 item4"
+                         "item1 item2 item4";
+    grid-auto-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#item{
+    
+}
